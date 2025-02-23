@@ -1,0 +1,49 @@
+/* Import Google Font (Optional) */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('webiste.png') no-repeat center center/cover;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #A8B3CF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Name Styling */
+.name {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Portfolio Button */
+.portfolio-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #A8B3CF;
+    border: 2px solid #A8B3CF;
+    border-radius: 30px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.portfolio-button:hover {
+    background: #A8B3CF;
+    color: #1A1A2E;
+    box-shadow: 0px 0px 15px rgba(168, 179, 207, 0.7);
+}
